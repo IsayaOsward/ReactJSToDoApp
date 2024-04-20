@@ -10,7 +10,7 @@ export default function Form({ todos, setTodos}) {
     return <form className={styles.form} onSubmit={(e)=>handleSubmit(e)}>
                 <div className={styles.flex}>
                     <input placeholder="Enter todo item..." className={styles.modernInput} onChange={(e)=>setTodo(e.target.value)} type="text" value={todo}/>
-                <button type="submit">Add</button>
+                <button className={styles.addToDo} type="submit">Add</button>
                 </div>
             </form>
 }

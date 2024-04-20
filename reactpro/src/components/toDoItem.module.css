@@ -1,0 +1,17 @@
+.todoItem{
+    padding: 20px;
+}
+.hr{
+    border: 1px solid #f4f4f4;
+}
+.deleteToDo{
+    float: right;
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    background-color: #f7ca18;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -4px;
+}
