@@ -1,0 +1,30 @@
+.form{
+ padding: 20px;
+ margin: 0 auto;
+ margin-top: 50px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ width: 500px;
+ border-radius: 8px;
+ background-color: white;
+}
+.modernInput{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 0 5px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+button{
+    border: none;
+    background-color: #f7ca18;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
